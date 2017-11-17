@@ -6,11 +6,10 @@
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
-  
 }
 
 body {
-    font-family: fantasy;
+   
     font-size: 20px;
 }
 
@@ -19,18 +18,17 @@ body {
 }
 
 .main {
-    height: 500px;
+    height: 900px;
     background-image: url(images.jpeg);
     background-size: 100%;
     margin-top: 20px;
     padding: 20px;
     box-sizing: border-box;
-     width: 1350px;
+    width: 1350px;
     margin-left: auto;
     margin-right: auto;
-    
-    
-    
+    font-family: monospace;
+  
 }
 
 .info {
@@ -44,7 +42,7 @@ body {
     margin-right: auto;
     background-image: url(you.jpeg);
     background-size: 100%;
-     width: 1350px;
+    width: 1350px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -52,12 +50,52 @@ body {
 h2 {
     text-align: center;
 }
+
 .display {
     display: flex;
     padding-left: 200px;
     box-sizing: border-box;
 }
+
 .column {
     margin-right: 50px
 }
 
+button {
+    background: blue;
+    border: none;
+    color: aqua;
+    margin-left: 90px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    
+}
+
+.main1 {
+    background-image: url(fon.jpeg);
+    font-family: serif;
+    font-size: 30px;
+    height: 700px;
+    background-size: 100%;
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+
+.button {
+    margin-left: 640px;
+}
+
+.img {
+    height: 200px;
+    width: 270px;
+}
+
+.main p {
+    text-align: center;
+}
