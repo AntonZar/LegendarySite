@@ -2,10 +2,10 @@
     height: 150px;
     background: #99ff00;
     display: flex;
-    padding-left: 50px;
-    width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    color:#009900;
 }
 
 body {
@@ -22,29 +22,26 @@ body {
     background-image: url(images.jpeg);
     background-size: 100%;
     margin-top: 20px;
-    padding: 20px;
+    padding-top: 20px;
     box-sizing: border-box;
-    width: 1350px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     font-family: monospace;
-  
+    color:#ff0d0d;
+    margin: 0 auto;
+    
 }
 
-.info {
-    height: 200px;
-    background: grey;
-    margin-top: 20px;
-    text-align-last: center;
-    padding-top: 40px;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(you.jpeg);
+.main1 {
+    background-image: url(fon.jpeg);
+    font-family: serif;
+    font-size: 30px;
+    height: 700px;
     background-size: 100%;
-    width: 1350px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+.main p {
+    text-align: center;
 }
 
 h2 {
@@ -53,12 +50,15 @@ h2 {
 
 .display {
     display: flex;
-    padding-left: 200px;
     box-sizing: border-box;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column {
-    margin-right: 50px
+    margin-right: 20px;
+    width: 300px;
 }
 
 button {
@@ -74,21 +74,10 @@ button {
     border-radius: 10px;
     margin-bottom: 50px;
     font-family: monospace;
-    
-}
-
-.main1 {
-    background-image: url(fon.jpeg);
-    font-family: serif;
-    font-size: 30px;
-    height: 700px;
-    background-size: 100%;
-    padding-top: 300px;
-    box-sizing: border-box;
 }
 
 .button {
-    margin-left: 640px;
+    margin-left: 47%;
 }
 
 .img {
@@ -96,6 +85,17 @@ button {
     width: 270px;
 }
 
-.main p {
-    text-align: center;
+.info {
+    height: 200px;
+    background: grey;
+    margin-top: 20px;
+    text-align-last: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-image: url(you.jpeg);
+    color:#3d3d29;
+    background-size: 100%;
+    width: 100%;
 }
+
+
